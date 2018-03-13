@@ -1,0 +1,9 @@
+output_directory "fastlane/outputs"
+export_options(
+  provisioningProfiles: {
+    "com.epam.Beacons": "EPAM WildCard In House (Aug 28)"
+  },
+  compileBitcode: false,
+  method: "enterprise",
+  clean: false
+)

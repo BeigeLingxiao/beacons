@@ -1,0 +1,102 @@
+[
+  {
+    "id": 6008,
+    "descr": "C & s-eye",
+    "isFavourite": true
+  },
+  {
+    "id": 1568,
+    "descr": "Uterine support op NEC",
+    "isFavourite": false
+  },
+  {
+    "id": 1283,
+    "descr": "Perforat keratoplast NEC",
+    "isFavourite": true
+  },
+  {
+    "id": 9759,
+    "descr": "Perc ins carotid stent",
+    "isFavourite": false
+  },
+  {
+    "id": 9417,
+    "descr": "Achillotenotomy",
+    "isFavourite": false
+  },
+  {
+    "id": 9805,
+    "descr": "Facial bone sequestrect",
+    "isFavourite": false
+  },
+  {
+    "id": 2665,
+    "descr": "Culture-lower resp",
+    "isFavourite": false
+  },
+  {
+    "id": 2587,
+    "descr": "Radius/ulna wedg osteoto",
+    "isFavourite": true
+  },
+  {
+    "id": 4327,
+    "descr": "Opn/oth part gastrectomy",
+    "isFavourite": true
+  },
+  {
+    "id": 6376,
+    "descr": "Rotator cuff repair",
+    "isFavourite": true
+  },
+  {
+    "id": 6681,
+    "descr": "Vag diaphragm insertion",
+    "isFavourite": true
+  },
+  {
+    "id": 5797,
+    "descr": "Urethral meatoplasty",
+    "isFavourite": false
+  },
+  {
+    "id": 4315,
+    "descr": "Pleural biopsy NEC",
+    "isFavourite": false
+  },
+  {
+    "id": 6604,
+    "descr": "Open reduc-dislocat NOS",
+    "isFavourite": false
+  },
+  {
+    "id": 2851,
+    "descr": "Postop vasc op hem contr",
+    "isFavourite": false
+  },
+  {
+    "id": 7137,
+    "descr": "Permanent colostomy",
+    "isFavourite": false
+  },
+  {
+    "id": 2944,
+    "descr": "Oth arthrotomy-foot/toe",
+    "isFavourite": true
+  },
+  {
+    "id": 12,
+    "descr": "Consultation NOS",
+    "isFavourite": true
+  },
+  {
+    "id": 4644,
+    "descr": "Int inser lead atri-vent",
+    "isFavourite": false
+  },
+  {
+    "id": 39,
+    "descr": "Micro exam-lower GI NEC",
+    "isFavourite": true
+  }
+]

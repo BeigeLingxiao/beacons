@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "coordinate": {
+      "longitude": -61.601735043,
+      "latitude": -91.825592517
+    },
+    "name": "Voonte",
+    "icon": "http://dummyimage.com/204x250.bmp/5fa2dd/ffffff",
+    "description": "Nutritional optic neuropathy"
+  },
+  {
+    "id": 2,
+    "coordinate": {
+      "longitude": -6.417365482,
+      "latitude": 89.581021706
+    },
+    "name": "Skyble",
+    "icon": "http://dummyimage.com/203x238.bmp/5fa2dd/ffffff",
+    "description": "Delirium due to conditions classified elsewhere"
+  },
+  {
+    "id": 3,
+    "coordinate": {
+      "longitude": 75.423608659,
+      "latitude": 66.118438057
+    },
+    "name": "Gigaclub",
+    "icon": "http://dummyimage.com/120x203.jpg/dddddd/000000",
+    "description": "Psychotic disorder with hallucinations in conditions classified elsewhere"
+  },
+  {
+    "id": 4,
+    "coordinate": {
+      "longitude": -33.780240228,
+      "latitude": -39.261880217
+    },
+    "name": "Gigazoom",
+    "icon": "http://dummyimage.com/204x182.bmp/ff4444/ffffff",
+    "description": "Other valgus deformities of feet"
+  },
+  {
+    "id": 5,
+    "coordinate": {
+      "longitude": -77.314296908,
+      "latitude": 99.65130402
+    },
+    "name": "Realbridge",
+    "icon": "http://dummyimage.com/209x183.bmp/ff4444/ffffff",
+    "description": "Vascular disorders of kidney"
+  },
+  {
+    "id": 6,
+    "coordinate": {
+      "longitude": -69.683893587,
+      "latitude": -6.072467671
+    },
+    "name": "Voonix",
+    "icon": "http://dummyimage.com/155x238.jpg/5fa2dd/ffffff",
+    "description": "Aneurysm of splenic artery"
+  },
+  {
+    "id": 7,
+    "coordinate": {
+      "longitude": -54.577115828,
+      "latitude": 64.396072013
+    },
+    "name": "Meemm",
+    "icon": "http://dummyimage.com/207x171.jpg/5fa2dd/ffffff",
+    "description": "Fall in, on, or from aircraft injuring other person"
+  },
+  {
+    "id": 8,
+    "coordinate": {
+      "longitude": -72.65186831,
+      "latitude": -5.74274116
+    },
+    "name": "Pixonyx",
+    "icon": "http://dummyimage.com/142x186.jpg/dddddd/000000",
+    "description": "Accidental cut, puncture, perforation or hemorrhage during endoscopic examination"
+  },
+  {
+    "id": 9,
+    "coordinate": {
+      "longitude": 11.686627906,
+      "latitude": -27.397663047
+    },
+    "name": "Vidoo",
+    "icon": "http://dummyimage.com/131x193.png/5fa2dd/ffffff",
+    "description": "Secondary malignant neoplasm of ovary"
+  },
+  {
+    "id": 10,
+    "coordinate": {
+      "longitude": -51.198325094,
+      "latitude": -83.928340509
+    },
+    "name": "Yacero",
+    "icon": "http://dummyimage.com/136x222.jpg/5fa2dd/ffffff",
+    "description": "Buphthalmos associated with other ocular anomalies"
+  },
+  {
+    "id": 11,
+    "coordinate": {
+      "longitude": -49.086764161,
+      "latitude": -39.669117811
+    },
+    "name": "Photolist",
+    "icon": "http://dummyimage.com/169x122.png/5fa2dd/ffffff",
+    "description": "Other eye problems"
+  },
+  {
+    "id": 12,
+    "coordinate": {
+      "longitude": 99.42175159,
+      "latitude": -9.897463339
+    },
+    "name": "Shuffledrive",
+    "icon": "http://dummyimage.com/161x108.png/5fa2dd/ffffff",
+    "description": "Central nervous system complications of anesthesia or other sedation in labor and delivery, unspecified as to episode of care or not applicable"
+  },
+  {
+    "id": 13,
+    "coordinate": {
+      "longitude": -97.187130184,
+      "latitude": 75.899640143
+    },
+    "name": "Plambee",
+    "icon": "http://dummyimage.com/158x140.bmp/5fa2dd/ffffff",
+    "description": "Other specified respiratory tuberculosis, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture"
+  },
+  {
+    "id": 14,
+    "coordinate": {
+      "longitude": -89.230647326,
+      "latitude": -74.533562039
+    },
+    "name": "Edgeblab",
+    "icon": "http://dummyimage.com/210x182.png/5fa2dd/ffffff",
+    "description": "Burn of unspecified degree of breast"
+  },
+  {
+    "id": 15,
+    "coordinate": {
+      "longitude": 54.658316466,
+      "latitude": -34.950477197
+    },
+    "name": "Twinder",
+    "icon": "http://dummyimage.com/171x184.bmp/ff4444/ffffff",
+    "description": "Unspecified perineal laceration, unspecified as to episode of care or not applicable"
+  },
+  {
+    "id": 16,
+    "coordinate": {
+      "longitude": 39.13857665,
+      "latitude": 74.942497034
+    },
+    "name": "Gigashots",
+    "icon": "http://dummyimage.com/162x208.png/5fa2dd/ffffff",
+    "description": "Unspecified monoarthritis, site unspecified"
+  },
+  {
+    "id": 17,
+    "coordinate": {
+      "longitude": 15.483001347,
+      "latitude": 89.223364941
+    },
+    "name": "Gabtype",
+    "icon": "http://dummyimage.com/248x104.png/5fa2dd/ffffff",
+    "description": "Congenital bowing of tibia and fibula"
+  },
+  {
+    "id": 18,
+    "coordinate": {
+      "longitude": -79.33760485,
+      "latitude": 8.39526052
+    },
+    "name": "Voonyx",
+    "icon": "http://dummyimage.com/156x226.bmp/5fa2dd/ffffff",
+    "description": "Tuberculosis of thyroid gland, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture"
+  },
+  {
+    "id": 19,
+    "coordinate": {
+      "longitude": 63.147213858,
+      "latitude": -42.949225083
+    },
+    "name": "Fivechat",
+    "icon": "http://dummyimage.com/210x246.png/cc0000/ffffff",
+    "description": "Aromatic analgesics, not elsewhere classified, causing adverse effects in therapeutic use"
+  },
+  {
+    "id": 20,
+    "coordinate": {
+      "longitude": -34.086266399,
+      "latitude": 64.870358148
+    },
+    "name": "Zazio",
+    "icon": "http://dummyimage.com/181x149.jpg/5fa2dd/ffffff",
+    "description": "Fracture of bones of trunk, closed"
+  }
+]

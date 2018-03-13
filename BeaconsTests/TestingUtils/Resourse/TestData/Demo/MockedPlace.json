@@ -1,0 +1,30 @@
+[
+  {
+    "id": 69,
+    "latitude": 59.8890277249561,
+    "longitude": 30.3284353762865,
+    "type": "Place",
+    "description": "Good toilet"
+  },
+  {
+    "id": 361,
+    "latitude": 59.8884146298535,
+    "longitude": 30.3284434229136,
+    "type": "Place",
+    "description": "Nice rest room"
+  },
+  {
+    "id": 362,
+    "latitude": 59.8886573462222,
+    "longitude": 30.3284917026758,
+    "type": "Staff",
+    "description": "Lazy devops"
+  },
+  {
+   "id": 1019,
+   "longitude": 30.3290398791432,
+   "latitude": 59.8884258994678,
+   "type": "Boss",
+   "description": "Just boss"
+  } 
+]

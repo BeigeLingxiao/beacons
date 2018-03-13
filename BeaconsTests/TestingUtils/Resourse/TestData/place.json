@@ -1,0 +1,182 @@
+[
+  {
+    "coordinate": {
+      "longitude": -98.086219245,
+      "latitude": -72.97662549
+    },
+    "id": 972,
+    "type": "VP Marketing",
+    "description": "Stapedectomy NEC"
+  },
+  {
+    "coordinate": {
+      "longitude": -20.998281631,
+      "latitude": -71.689400856
+    },
+    "id": 581,
+    "type": "Biostatistician IV",
+    "description": "Isotope inject/instill"
+  },
+  {
+    "coordinate": {
+      "longitude": -85.892176034,
+      "latitude": 25.549750221
+    },
+    "id": 264,
+    "type": "Cost Accountant",
+    "description": "Tibia/fibul wedg osteot"
+  },
+  {
+    "coordinate": {
+      "longitude": -62.650717193,
+      "latitude": 92.907469001
+    },
+    "id": 624,
+    "type": "Software Engineer I",
+    "description": "Insert nasopharyn airway"
+  },
+  {
+    "coordinate": {
+      "longitude": -50.272521285,
+      "latitude": 5.057206627
+    },
+    "id": 774,
+    "type": "Environmental Specialist",
+    "description": "Rectal perirect op NEC"
+  },
+  {
+    "coordinate": {
+      "longitude": -11.826935553,
+      "latitude": -80.768662203
+    },
+    "id": 574,
+    "type": "Marketing Assistant",
+    "description": "Aorta-iliac-femor bypass"
+  },
+  {
+    "coordinate": {
+      "longitude": -60.156512042,
+      "latitude": -36.262556575
+    },
+    "id": 779,
+    "type": "Programmer Analyst IV",
+    "description": "Anesthetized eye exam"
+  },
+  {
+    "coordinate": {
+      "longitude": 41.196204476,
+      "latitude": -5.560706615
+    },
+    "id": 716,
+    "type": "Senior Editor",
+    "description": "Excise cord/epid les NEC"
+  },
+  {
+    "coordinate": {
+      "longitude": -70.841557026,
+      "latitude": 93.164145572
+    },
+    "id": 637,
+    "type": "Internal Auditor",
+    "description": "Goniotomy"
+  },
+  {
+    "coordinate": {
+      "longitude": 39.732382975,
+      "latitude": -72.645316998
+    },
+    "id": 873,
+    "type": "Automation Specialist II",
+    "description": "Intrcran vent shunt/anas"
+  },
+  {
+    "coordinate": {
+      "longitude": 62.547493895,
+      "latitude": -91.931427532
+    },
+    "id": 949,
+    "type": "Registered Nurse",
+    "description": "Repair eyeball rupture"
+  },
+  {
+    "coordinate": {
+      "longitude": -22.885359705,
+      "latitude": -42.066001849
+    },
+    "id": 395,
+    "type": "Information Systems Manager",
+    "description": "Enuc socket revis NEC"
+  },
+  {
+    "coordinate": {
+      "longitude": 17.02722911,
+      "latitude": 40.424375138
+    },
+    "id": 267,
+    "type": "Senior Sales Associate",
+    "description": "Gynecologic examination"
+  },
+  {
+    "coordinate": {
+      "longitude": 82.010957965,
+      "latitude": 69.648254287
+    },
+    "id": 816,
+    "type": "Account Representative II",
+    "description": "Fallopian tube dilation"
+  },
+  {
+    "coordinate": {
+      "longitude": 55.780466132,
+      "latitude": 25.094579231
+    },
+    "id": 458,
+    "type": "Administrative Officer",
+    "description": "Uterine les destruct NEC"
+  },
+  {
+    "coordinate": {
+      "longitude": 80.961511159,
+      "latitude": 62.453646619
+    },
+    "id": 225,
+    "type": "Cost Accountant",
+    "description": "Delayed tendon suture"
+  },
+  {
+    "coordinate": {
+      "longitude": -70.19842017,
+      "latitude": -65.956926585
+    },
+    "id": 589,
+    "type": "Mechanical Systems Engineer",
+    "description": "Excis/destr les phar NEC"
+  },
+  {
+    "coordinate": {
+      "longitude": -94.18165868,
+      "latitude": -43.95679471
+    },
+    "id": 733,
+    "type": "Community Outreach Specialist",
+    "description": "Remov vas deferens valve"
+  },
+  {
+    "coordinate": {
+      "longitude": -96.39013769,
+      "latitude": 55.893359507
+    },
+    "id": 97,
+    "type": "Cost Accountant",
+    "description": "Vagin/cul-de-sac dx NEC"
+  },
+  {
+    "coordinate": {
+      "longitude": 20.768666022,
+      "latitude": 9.062171694
+    },
+    "id": 247,
+    "type": "Research Nurse",
+    "description": "Insert removable bridge"
+  }
+]

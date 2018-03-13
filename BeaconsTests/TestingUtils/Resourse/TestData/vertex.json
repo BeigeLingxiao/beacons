@@ -1,0 +1,142 @@
+[
+  {
+    "coordinate": {
+      "longitude": -12.798433,
+      "latitude": 91.370353214
+    },
+    "id": 1
+  },
+  {
+    "coordinate": {
+      "longitude": 86.358745771,
+      "latitude": 41.621775299
+    },
+    "id": 2
+  },
+  {
+    "coordinate": {
+      "longitude": 9.26776442,
+      "latitude": 62.137023927
+    },
+    "id": 3
+  },
+  {
+    "coordinate": {
+      "longitude": 40.472958244,
+      "latitude": 36.127776136
+    },
+    "id": 4
+  },
+  {
+    "coordinate": {
+      "longitude": 77.643995118,
+      "latitude": 97.772598154
+    },
+    "id": 5
+  },
+  {
+    "coordinate": {
+      "longitude": -38.280294241,
+      "latitude": 75.886144395
+    },
+    "id": 6
+  },
+  {
+    "coordinate": {
+      "longitude": 42.910030558,
+      "latitude": 98.555927608
+    },
+    "id": 7
+  },
+  {
+    "coordinate": {
+      "longitude": 27.023927315,
+      "latitude": 49.112350066
+    },
+    "id": 8
+  },
+  {
+    "coordinate": {
+      "longitude": 2.790347009,
+      "latitude": 82.759999712
+    },
+    "id": 9
+  },
+  {
+    "coordinate": {
+      "longitude": 57.381369346,
+      "latitude": 11.746529858
+    },
+    "id": 10
+  },
+  {
+    "coordinate": {
+      "longitude": 31.108406851,
+      "latitude": -41.515644304
+    },
+    "id": 11
+  },
+  {
+    "coordinate": {
+      "longitude": 29.75413727,
+      "latitude": -92.074624533
+    },
+    "id": 12
+  },
+  {
+    "coordinate": {
+      "longitude": -55.622277361,
+      "latitude": 8.769227952
+    },
+    "id": 13
+  },
+  {
+    "coordinate": {
+      "longitude": -1.229340724,
+      "latitude": 46.846637115
+    },
+    "id": 14
+  },
+  {
+    "coordinate": {
+      "longitude": 3.914564458,
+      "latitude": -10.812306174
+    },
+    "id": 15
+  },
+  {
+    "coordinate": {
+      "longitude": 17.20552393,
+      "latitude": 88.555804019
+    },
+    "id": 16
+  },
+  {
+    "coordinate": {
+      "longitude": 92.107433073,
+      "latitude": 91.921570204
+    },
+    "id": 17
+  },
+  {
+    "coordinate": {
+      "longitude": -25.302466922,
+      "latitude": -9.630465935
+    },
+    "id": 18
+  },
+  {
+    "coordinate": {
+      "longitude": 42.281156838,
+      "latitude": -88.948846617
+    },
+    "id": 19
+  },
+  {
+    "coordinate": {
+      "longitude": -63.317952921,
+      "latitude": 24.387802834
+    },
+    "id": 20
+  }
+]

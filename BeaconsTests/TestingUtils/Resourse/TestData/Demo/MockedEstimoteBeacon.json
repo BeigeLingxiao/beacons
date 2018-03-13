@@ -1,0 +1,44 @@
+[
+  {
+    "longitude": 30.3282653912902,
+    "latitude": 59.8885352313477,
+    "major": 10022,
+    "minor": 20006,
+    "uuid": "b9407f30-f5f8-466e-aff9-25556b57fe6d"
+  },
+  {
+    "longitude": 30.328270085156,
+    "latitude": 59.8884613903175,
+    "major": 10022,
+    "minor": 20001,
+    "uuid": "b9407f30-f5f8-466e-aff9-25556b57fe6d"
+  },
+  {
+    "longitude": 30.3284293413162,
+    "latitude": 59.8884618949264,
+    "major": 10022,
+    "minor": 20005,
+    "uuid": "b9407f30-f5f8-466e-aff9-25556b57fe6d"
+  },
+  {
+    "longitude": 30.3284336999059,
+    "latitude": 59.8884590354755,
+    "major": 10022,
+    "minor": 20005,
+    "uuid": "b9407f30-f5f8-466e-aff9-25556b57fe6d"
+  },
+  {
+    "longitude": 30.3285963088274,
+    "latitude": 59.8884879663791,
+    "major": 10022,
+    "minor": 20003,
+    "uuid": "b9407f30-f5f8-466e-aff9-25556b57fe6d"
+  },
+  {
+ "longitude": 30.3285010904074,
+ "latitude": 59.8883843532591,
+    "major": 10022,
+    "minor": 20004,
+    "uuid": "b9407f30-f5f8-466e-aff9-25556b57fe6d"
+  }
+]

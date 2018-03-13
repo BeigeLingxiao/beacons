@@ -1,0 +1,41 @@
+fastlane_version "2.28.3"
+
+default_platform :ios
+
+platform :ios do
+  lane :build_ipa do
+    increment_build_number 
+    gym(
+      scheme: "BeaconsDev"
+    )
+    upload_to_appstore
+  end
+
+  before_all do
+    carthage(
+      command: "update",
+      platform: "iOS",
+      use_binaries: false,
+      cache_builds: true
+    )
+  end
+
+  lane :test do
+    scan(
+      scheme: "BeaconsTest",
+      configuration: 'Test',
+      clean: true,
+      code_coverage: true,
+      output_types: 'junit',
+      device: "iPhone 7"
+    )
+  end
+
+  lane :upload_to_appstore do
+     ENV["IPA_OUTPUT_FILE"]=Actions.lane_context[Actions::SharedValues::IPA_OUTPUT_PATH]
+     ENV["XCARCHIVE_OUTPUT"]=Actions.lane_context[Actions::SharedValues::XCODEBUILD_ARCHIVE]
+     ENV[“BCN_BUILD_NUMBER”]=Actions.lane_context[Actions::SharedValues::BUILD_NUMBER]
+
+     sh("bash ./upload_to_appstore.sh")
+  end
+end

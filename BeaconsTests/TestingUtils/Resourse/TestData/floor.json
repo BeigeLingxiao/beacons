@@ -1,0 +1,68 @@
+[
+  {
+    "image": "imagelink",
+    "number": "8",
+    "width": 2.3242242,
+    "height": 1.43242342,
+    "overlayNorthEastLatitude": 1.1231231,
+    "overlayNorthEastLongitude": 2.12313123,
+    "overlaySouthWestLatitude": 4.12312312,
+    "overlaySouthWestLongitude": 3.12313131,
+    "beacons": [
+      {
+        "longitude": 30.32866135,
+        "latitude": 59.88865903,
+        "major": 321,
+        "minor": 231,
+        "uuid": "uuid"
+      },
+      {
+        "longitude": 123,
+        "latitude": 345,
+        "major": 231,
+        "minor": 2342,
+        "uuid": "uuid"
+      }
+    ],
+    "edges": [
+      {
+        "weight": 60.74397,
+        "v1": 19,
+        "v2": 84
+      },
+      {
+        "weight": 7.10097,
+        "v1": 27,
+        "v2": 59
+      }
+    ],
+    "places": [
+      {
+        "id": 0,
+        "longitude": 30.32866135,
+        "latitude": 59.88865903,
+        "type": "toilet",
+        "description": "very good"
+      },
+      {
+        "id": 1,
+        "longitude": 125,
+        "latitude": 23,
+        "type": "kitchen",
+        "description": "very bad"
+      }
+    ],
+    "vertices": [
+      {
+        "longitude": -12.798433,
+        "latitude": 91.370353214,
+        "id": 1
+      },
+      {
+        "longitude": 86.358745771,
+        "latitude": 41.621775299,
+        "id": 2
+      }
+    ]
+  }
+]

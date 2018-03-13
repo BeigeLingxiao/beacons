@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RoomMapViewController" customModule="Beacons" customModuleProvider="target">
+            <connections>
+                <outlet property="favourite" destination="mUk-r5-cnf" id="c2t-Ah-S8x"/>
+                <outlet property="mapView" destination="730-ve-578" id="eD2-4E-8Em"/>
+                <outlet property="positionButton" destination="v7U-q8-EJ2" id="syY-Wz-qqi"/>
+                <outlet property="sendLogs" destination="sln-Kz-tdx" id="J8K-dR-OkU"/>
+                <outlet property="view" destination="uBB-NV-76b" id="SXz-Ff-YGr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="uBB-NV-76b">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="730-ve-578" customClass="GMSMapView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" tag="-1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GGJ-za-ekX">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem image="ic_flag" id="v7U-q8-EJ2"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="uMs-yf-dU4"/>
+                        <barButtonItem image="ic_map" id="c8J-Tk-00J"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="P3r-s6-1Ao"/>
+                        <barButtonItem image="ic_star_border" id="mUk-r5-cnf"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="ZT4-mk-4Ht"/>
+                        <barButtonItem image="ic_place" id="Gz7-ad-r7a"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="mJL-AG-wyO"/>
+                        <barButtonItem image="ic_message" id="NvJ-fl-Kf4"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="C87-3I-jhI"/>
+                        <barButtonItem systemItem="action" id="sln-Kz-tdx"/>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="VFI-eU-IJ8"/>
+            <point key="canvasLocation" x="2097.5" y="665.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_flag" width="24" height="24"/>
+        <image name="ic_map" width="24" height="24"/>
+        <image name="ic_message" width="24" height="24"/>
+        <image name="ic_place" width="24" height="24"/>
+        <image name="ic_star_border" width="24" height="24"/>
+    </resources>
+</document>

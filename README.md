@@ -1,1 +1,1 @@
-# beacons
+Beacons iOS project

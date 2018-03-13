@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Beacon" representedClassName=".Beacon" syncable="YES">
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="major" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minor" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="floor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Floor" inverseName="beacons" inverseEntity="Floor" syncable="YES"/>
+    </entity>
+    <entity name="Building" representedClassName=".Building" syncable="YES">
+        <attribute name="descr" attributeType="String" syncable="YES"/>
+        <attribute name="icon" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Edge" representedClassName=".Edge" syncable="YES">
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="floor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Floor" inverseName="edges" inverseEntity="Floor" syncable="YES"/>
+        <relationship name="vertexes" toMany="YES" deletionRule="Cascade" destinationEntity="Vertex" inverseName="edges" inverseEntity="Vertex" syncable="YES"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="Floor" representedClassName=".Floor" syncable="YES">
+        <attribute name="icon" attributeType="String" syncable="YES"/>
+        <attribute name="number" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="beacons" toMany="YES" deletionRule="Cascade" destinationEntity="Beacon" inverseName="floor" inverseEntity="Beacon" syncable="YES"/>
+        <relationship name="edges" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Edge" inverseName="floor" inverseEntity="Edge" syncable="YES"/>
+        <relationship name="places" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Place" inverseName="floor" inverseEntity="Place" syncable="YES"/>
+    </entity>
+    <entity name="Place" representedClassName=".Place" syncable="YES">
+        <attribute name="descr" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" attributeType="String" syncable="YES"/>
+        <relationship name="floor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Floor" inverseName="places" inverseEntity="Floor" syncable="YES"/>
+    </entity>
+    <entity name="Vertex" representedClassName=".Vertex" syncable="YES">
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="edges" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edge" inverseName="vertexes" inverseEntity="Edge" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Beacon" positionX="-45" positionY="0" width="128" height="133"/>
+        <element name="Building" positionX="0" positionY="117" width="128" height="135"/>
+        <element name="Edge" positionX="27" positionY="117" width="128" height="88"/>
+        <element name="Entity" positionX="36" positionY="153" width="128" height="43"/>
+        <element name="Floor" positionX="-18" positionY="72" width="128" height="118"/>
+        <element name="Place" positionX="45" positionY="135" width="128" height="133"/>
+        <element name="Vertex" positionX="9" positionY="90" width="128" height="88"/>
+    </elements>
+</model>
